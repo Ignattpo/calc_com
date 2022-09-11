@@ -1,13 +1,39 @@
-#include "mainwindow.h"
+#include <QRegExpValidator>
+#include <QValidator>
+
 #include "./ui_mainwindow.h"
+#include "mainwindow.h"
 
 MainWindow::MainWindow(QWidget* parent)
     : QMainWindow(parent), ui(new Ui::MainWindow) {
   ui->setupUi(this);
+  this->SetValidations();
 }
 
 MainWindow::~MainWindow() {
   delete ui;
+}
+
+void MainWindow::SetValidations() {
+  QRegExpValidator* reg_float =
+      new QRegExpValidator(QRegExp("(\\d+)\\.(\\d+)"));
+  ui->lineEdit->setValidator(reg_float);
+  ui->lineEdit_2->setValidator(reg_float);
+  ui->lineEdit_3->setValidator(reg_float);
+  ui->lineEdit_4->setValidator(reg_float);
+  ui->lineEdit_5->setValidator(reg_float);
+  ui->lineEdit_6->setValidator(reg_float);
+  ui->lineEdit_7->setValidator(reg_float);
+  ui->lineEdit_8->setValidator(reg_float);
+  ui->lineEdit_9->setValidator(reg_float);
+  ui->lineEdit_10->setValidator(reg_float);
+  ui->lineEdit_11->setValidator(reg_float);
+  ui->lineEdit_12->setValidator(reg_float);
+  ui->lineEdit_13->setValidator(reg_float);
+  ui->lineEdit_14->setValidator(reg_float);
+  ui->lineEdit_15->setValidator(reg_float);
+  ui->lineEdit_16->setValidator(reg_float);
+  ui->lineEdit_17->setValidator(reg_float);
 }
 
 void MainLabel::SetResult(const QString string) {

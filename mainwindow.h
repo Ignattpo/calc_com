@@ -8,7 +8,6 @@
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
-class MainLabel;
 }  // namespace Ui
 QT_END_NAMESPACE
 
@@ -20,6 +19,7 @@ class MainWindow : public QMainWindow {
   ~MainWindow();
 
  private slots:
+  void SetValidations();
   void on_gas_calc_Button_clicked();
 
   void on_water_calc_Button_clicked();
