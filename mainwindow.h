@@ -20,6 +20,7 @@ class MainWindow : public QMainWindow {
 
  private slots:
   void SetValidations();
+  void InitTarif();
   void on_gas_calc_Button_clicked();
 
   void on_water_calc_Button_clicked();

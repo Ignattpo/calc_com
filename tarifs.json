@@ -1,0 +1,17 @@
+{
+   "gas": {
+      "tarif": 6.559
+   },
+   "water": {
+      "tarif": 61.23
+   },
+   "trash": {
+      "volume": 0.155,
+      "tarif": 435.22
+   },
+   "electricity": {
+      "norma": 205,
+      "tarif_in_norma": 3.09,
+      "tarif_out_norma": 4.33
+   }
+}

@@ -254,7 +254,11 @@
        <widget class="QLineEdit" name="lineEdit_3"/>
       </item>
       <item row="1" column="6">
-       <widget class="QLineEdit" name="lineEdit_4"/>
+       <widget class="QLineEdit" name="lineEdit_4">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>
@@ -594,7 +598,11 @@
        <widget class="QLineEdit" name="lineEdit_13"/>
       </item>
       <item row="1" column="6">
-       <widget class="QLineEdit" name="lineEdit_17"/>
+       <widget class="QLineEdit" name="lineEdit_17">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
       </item>
       <item row="1" column="8">
        <layout class="QFormLayout" name="formLayout">
@@ -830,7 +838,11 @@
        <widget class="QLineEdit" name="lineEdit_10"/>
       </item>
       <item row="1" column="4">
-       <widget class="QLineEdit" name="lineEdit_11"/>
+       <widget class="QLineEdit" name="lineEdit_11">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>
@@ -1069,7 +1081,11 @@
        <widget class="QLineEdit" name="lineEdit_7"/>
       </item>
       <item row="1" column="6">
-       <widget class="QLineEdit" name="lineEdit_8"/>
+       <widget class="QLineEdit" name="lineEdit_8">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>

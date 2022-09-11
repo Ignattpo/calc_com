@@ -34,6 +34,12 @@ set(PROJECT_SOURCES
         mainwindow.ui
 )
 
+file(COPY
+    tarifs.json
+    DESTINATION
+    ${CMAKE_CURRENT_BINARY_DIR}
+)
+
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(calc_com
         ${PROJECT_SOURCES}
